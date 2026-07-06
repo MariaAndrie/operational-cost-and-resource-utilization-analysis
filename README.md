@@ -108,6 +108,32 @@ Planned pages:
 3. Cost Drivers
 4. Team / Region Efficiency
 
+## Project Structure
+
+```text
+operational-cost-resource-utilization-analysis/
+│
+├── data/
+│   ├── dim_date.csv
+│   ├── fact_tickets.csv
+│   ├── fact_csat.csv
+│   └── ...
+│
+├── sql/
+│   ├── 03_data_quality_checks.sql
+│   ├── 04_business_logic_validation.sql
+│   └── 05_cost_kpi_analysis.sql
+│
+├── powerbi/
+│   └── Operational_Cost_Resource_Utilization.pbix
+│
+├── images/
+│   ├── one.png
+│   └── two.png
+│
+└── README.md
+```
+
 ## Project Purpose
 
 This project demonstrates practical Operations Analytics skills:
